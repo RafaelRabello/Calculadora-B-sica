@@ -1,0 +1,32 @@
+body {
+    font: normal 15pt Arial;
+    background-color: aqua;
+    display: grid;
+    place-items: center;
+}
+header {
+    font-style: italic;
+}
+section {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    width: 500px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.363);
+    text-align: center;
+}
+footer {
+    font-style: italic;
+}
+#btn {
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(27, 231, 27);
+}
+div {
+    margin-top: 15px;
+}
+input {
+    width: 100px;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/calculator.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Calculadora Básica</title>
+</head>
+<body>
+    <header>
+        <h1>Calculadora Básica</h1>
+    </header>
+    <section>
+        <div>
+            <input type="number" name="txt1" id="txt1"> +
+            <input type="number" name="txt2" id="txt2">
+            <input type="button" value="Somar" id="btn" onclick="somar()">
+            <div id="res1"></div>
+        </div>
+        <div>
+            <input type="number" name="txt3" id="txt3"> -
+            <input type="number" name="txt4" id="txt4">
+            <input type="button" value="Subtrair" id="btn" onclick="subtrair()">
+            <div id="res2"></div>
+        </div>
+        <div>
+            <input type="number" name="txt5" id="txt5"> *
+            <input type="number" name="txt6" id="txt6">
+            <input type="button" value="Multiplicar" id="btn" onclick="multiplicar()">
+            <div id="res3"></div>
+        </div>        
+        <div>
+            <input type="number" name="txt7" id="txt7"> /
+            <input type="number" name="txt8" id="txt8">
+            <input type="button" value="Dividir" id="btn" onclick="dividir()">
+            <div id="res4"></div>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; <a href="www.github.com/RafaelRabello" >Rafael Rabello</a></p>
+    </footer>
+</body>
+</html>
